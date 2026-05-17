@@ -1,0 +1,14 @@
+{
+  "name": "pi-poolside",
+  "version": "1.0.0",
+  "description": "Poolside AI provider extension for Pi - registers Poolside models as OpenAI-compatible provider",
+  "keywords": ["pi-package", "pi", "pi-extension", "poolside", "ai-provider", "free"],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
