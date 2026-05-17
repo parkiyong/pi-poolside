@@ -23,7 +23,7 @@ export default function (pi: ExtensionAPI) {
 		authHeader: true,
 		models: [
 			{
-				id: "laguna-m.1",
+				id: "poolside/laguna-m.1",
 				name: "Laguna M.1",
 				reasoning: true,
 				input: ["text"],
@@ -35,7 +35,7 @@ export default function (pi: ExtensionAPI) {
 				},
 			},
 			{
-				id: "laguna-xs.2",
+				id: "poolside/laguna-xs.2",
 				name: "Laguna XS.2",
 				reasoning: true,
 				input: ["text"],

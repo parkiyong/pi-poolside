@@ -7,7 +7,7 @@ Registers [Poolside](https://poolside.ai) as an OpenAI-compatible provider so yo
 ## Install
 
 ```bash
-npm install -g @parkiyong/pi-poolside
+npm install -g pi-poolside
 ```
 
 Pi auto-loads installed packages that declare a `pi.extensions` entry, so no extra wiring is needed.
