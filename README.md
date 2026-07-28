@@ -30,10 +30,14 @@ Inside Pi, run:
 
 and pick one of:
 
-- `poolside/laguna-m.1` — Laguna M.1
-- `poolside/laguna-xs.2` — Laguna XS.2
+| Model ID | Name | Params | Context | Reasoning | Pricing (per 1M tokens) |
+|---|---|---|---|---|---|
+| `poolside/laguna-s-2.1` | Laguna S 2.1 | 118B total / 8B active | **1,048,576** | ✅ native (on/off per request) | $0.10 in / $0.20 out |
+| `poolside/laguna-xs-2.1` | Laguna XS 2.1 | 33B total / 3B active | 262,144 | ✅ native | $0.06 in / $0.12 out |
+| `poolside/laguna-m.1` | Laguna M.1 | 225B total / 23B active | 262,144 | ✅ native | $0.20 in / $0.40 out |
+| `poolside/laguna-xs.2` | Laguna XS.2 | 33B total / 3B active | 262,144 | ✅ default thinking | free (limited preview) |
 
-Both are registered with `reasoning: true` and a 131K context window placeholder.
+All Laguna models are Mixture-of-Experts (MoE) and text-to-text only (no vision).
 
 ## Configuration notes
 
@@ -44,7 +48,7 @@ The extension targets:
 - Auth: bearer header via `POOLSIDE_API_KEY`
 - `max_tokens` field name forced via `compat.maxTokensField`
 
-`contextWindow`, `maxTokens` and `cost` are **conservative placeholders**. Update them in `index.ts` to match the limits and pricing Poolside publishes for your account.
+`contextWindow`, `maxTokens` and `cost` are sourced from [docs.poolside.ai](https://docs.poolside.ai/get-started/supported-models) and [OpenRouter's Poolside listing](https://openrouter.ai/poolside). Verify against your account if needed.
 
 ## Adding or updating models
 
