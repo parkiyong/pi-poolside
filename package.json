@@ -1,17 +1,17 @@
 {
   "name": "pi-poolside",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Poolside AI provider extension for Pi - registers Poolside models as OpenAI-compatible provider",
-  "keywords": ["pi-package", "pi", "pi-extension", "poolside", "ai-provider", "free"],
+  "keywords": ["pi-package", "pi", "pi-extension", "poolside", "ai-provider", "free", "laguna", "coding-agent"],
   "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parkiyong/pi-poolside.git"
+    "url": "git+https://github.com/virtualWinter/pi-poolside.git"
   },
-  "homepage": "https://github.com/parkiyong/pi-poolside",
+  "homepage": "https://github.com/virtualWinter/pi-poolside",
   "bugs": {
-    "url": "https://github.com/parkiyong/pi-poolside/issues"
+    "url": "https://github.com/virtualWinter/pi-poolside/issues"
   },
   "pi": {
     "extensions": ["./index.ts"]
