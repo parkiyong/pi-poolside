@@ -7,11 +7,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parkiyong/pi-poolside.git"
+    "url": "git+https://github.com/virtualWinter/pi-poolside.git"
   },
-  "homepage": "https://github.com/parkiyong/pi-poolside",
+  "homepage": "https://github.com/virtualWinter/pi-poolside",
   "bugs": {
-    "url": "https://github.com/parkiyong/pi-poolside/issues"
+    "url": "https://github.com/virtualWinter/pi-poolside/issues"
   },
   "pi": {
     "extensions": ["./index.ts"]
